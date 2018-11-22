@@ -17,6 +17,7 @@ class Form extends React.Component{
                 <input
                     type="text"
                     value={this.state.text}
+                    readOnly
                 />
 
             </div>

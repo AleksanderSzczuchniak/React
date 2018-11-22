@@ -12,12 +12,8 @@ class Form extends React.Component{
                 <input
                     type="text"
                     value={this.state.text}
-                    onCharge={(event) => this.setState({ text: event.target.value })}
+                    onChange={(event) => this.setState({ text: event.target.value })}
                 />
-                <input type="text"/>
-                
-                />
-
             </div>
         )
     }

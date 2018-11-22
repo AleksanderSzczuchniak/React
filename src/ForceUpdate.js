@@ -1,7 +1,5 @@
 import React from 'react'
 
-// DO NOT DO CODE LIKE THIS
-// render should depends only form props and state
 
 class ForceUpdate extends React.Component {
   componentDidMount(){

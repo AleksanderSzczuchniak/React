@@ -20,7 +20,7 @@ class Counter extends React.Component {
     render() {
         return (
             <div>
-                <hi>{this.state.number}</hi>
+                <h1>{this.state.number}</h1>
                 <button
                     onClick={this.maxHandler}
                 >

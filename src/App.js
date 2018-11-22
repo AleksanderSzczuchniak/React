@@ -3,6 +3,7 @@ import Counter from './Counter'
 import Form from './Form'
 import Form2 from './Form2'
 import ForceUpdate from './ForceUpdate'
+import Users from './Users';
 
 
 const App = (props) => (
@@ -22,6 +23,7 @@ const App = (props) => (
     <hr />
     <Form />
     <Form2 />
+    <Users />
   </div>
 )
 
