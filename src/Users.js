@@ -47,13 +47,13 @@ class Users extends React.Component {
                                     {user.name.first} {user.name.last}
                                 </div>
                             ))
-}
+                }
 
             </div>
         )
     }
 }
 Users.defaultProps = {
-    numberOfResults: 1000
+    numberOfResults: 2
 }
 export default Users
